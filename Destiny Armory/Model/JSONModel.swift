@@ -55,7 +55,7 @@ class JSONModel: ObservableObject {
             guard let data = data, error == nil else {return}
             
             do{
-                let JSONManifest = try JSONDecoder().decode(Manifest.self, from: data)
+                let JSONManifest = try JSONDecoder().decode(BungieManifestModel.Manifest.self, from: data)
                 
                 VersionPersistence.storage.version = JSONManifest.response.version
                 
