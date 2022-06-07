@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA16C105280C3D9100CD6C47 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA16C104280C3D9100CD6C47 /* JSONModel.swift */; };
+		CA1D2D71281437D200BAE6BA /* PerkCalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D2D70281437D200BAE6BA /* PerkCalculationModel.swift */; };
+		CA261C6C2812B8A3004EF6BD /* WeaponViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA261C6B2812B8A3004EF6BD /* WeaponViewImage.swift */; };
+		CA261C7B2812CE2C004EF6BD /* Futura-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA261C792812CE2C004EF6BD /* Futura-Medium.ttf */; };
+		CA261C7C2812CE2C004EF6BD /* Exocet Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA261C7A2812CE2C004EF6BD /* Exocet Light.ttf */; };
+		CA299D4C283D0AD10028EA1E /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA299D4A283D0AD10028EA1E /* CoreDataModel.xcdatamodeld */; };
+		CA387D2C280EE0DF00361A78 /* WeaponStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA387D2B280EE0DF00361A78 /* WeaponStatsView.swift */; };
+		CA619AAD28102654008D6EC1 /* WeaponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA619AAC28102654008D6EC1 /* WeaponModel.swift */; };
+		CA619AB328102F12008D6EC1 /* WeaponPerksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA619AB228102F12008D6EC1 /* WeaponPerksView.swift */; };
+		CA67556D2809AAAD000AB82D /* Destiny_ArmoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67556C2809AAAD000AB82D /* Destiny_ArmoryApp.swift */; };
+		CA6755712809AAB2000AB82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6755702809AAB2000AB82D /* Assets.xcassets */; };
+		CA6755742809AAB2000AB82D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6755732809AAB2000AB82D /* Preview Assets.xcassets */; };
+		CA67557E2809AAB2000AB82D /* Destiny_ArmoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67557D2809AAB2000AB82D /* Destiny_ArmoryTests.swift */; };
+		CA6755882809AAB2000AB82D /* Destiny_ArmoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6755872809AAB2000AB82D /* Destiny_ArmoryUITests.swift */; };
+		CA67558A2809AAB2000AB82D /* Destiny_ArmoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6755892809AAB2000AB82D /* Destiny_ArmoryUITestsLaunchTests.swift */; };
+		CA83F1A0280D899A0078ADC8 /* WeaponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA83F19F280D89990078ADC8 /* WeaponView.swift */; };
+		CA8516FF281582EE005A15F5 /* StatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8516FE281582EE005A15F5 /* StatBar.swift */; };
+		CA8753F72836524400D05D39 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8753F62836524400D05D39 /* ItemModel.swift */; };
+		CA8753F9283652DB00D05D39 /* PerkSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8753F8283652DB00D05D39 /* PerkSetModel.swift */; };
+		CA8753FD2836534800D05D39 /* WeaponListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8753FC2836534800D05D39 /* WeaponListView.swift */; };
+		CA8753FF2836538C00D05D39 /* WeaponListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8753FE2836538C00D05D39 /* WeaponListItem.swift */; };
+		CA8754012836545100D05D39 /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8754002836545100D05D39 /* IconImage.swift */; };
+		CA8754032836557900D05D39 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8754022836557900D05D39 /* LoadingAnimation.swift */; };
+		CA87540528367AEE00D05D39 /* BungieManifestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87540428367AEE00D05D39 /* BungieManifestModel.swift */; };
+		CADD61992844FCE700EEBD94 /* SandboxPerkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD61982844FCE700EEBD94 /* SandboxPerkModel.swift */; };
+		CAE469CC2837CF9D00F6B091 /* VersionPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE469CB2837CF9D00F6B091 /* VersionPersistence.swift */; };
+		CAE469D42837E51800F6B091 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE469D32837E51800F6B091 /* CoreDataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA67557A2809AAB2000AB82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6755612809AAAD000AB82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6755682809AAAD000AB82D;
+			remoteInfo = "Destiny Armory";
+		};
+		CA6755842809AAB2000AB82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6755612809AAAD000AB82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6755682809AAAD000AB82D;
+			remoteInfo = "Destiny Armory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA16C104280C3D9100CD6C47 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		CA1D2D70281437D200BAE6BA /* PerkCalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkCalculationModel.swift; sourceTree = "<group>"; };
+		CA261C6B2812B8A3004EF6BD /* WeaponViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponViewImage.swift; sourceTree = "<group>"; };
+		CA261C792812CE2C004EF6BD /* Futura-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Medium.ttf"; sourceTree = "<group>"; };
+		CA261C7A2812CE2C004EF6BD /* Exocet Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exocet Light.ttf"; sourceTree = "<group>"; };
+		CA299D4B283D0AD10028EA1E /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		CA387D2B280EE0DF00361A78 /* WeaponStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponStatsView.swift; sourceTree = "<group>"; };
+		CA619AAC28102654008D6EC1 /* WeaponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponModel.swift; sourceTree = "<group>"; };
+		CA619AB228102F12008D6EC1 /* WeaponPerksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponPerksView.swift; sourceTree = "<group>"; };
+		CA6755692809AAAD000AB82D /* Destiny Armory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destiny Armory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA67556C2809AAAD000AB82D /* Destiny_ArmoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_ArmoryApp.swift; sourceTree = "<group>"; };
+		CA6755702809AAB2000AB82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6755732809AAB2000AB82D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA6755792809AAB2000AB82D /* Destiny ArmoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Destiny ArmoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA67557D2809AAB2000AB82D /* Destiny_ArmoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_ArmoryTests.swift; sourceTree = "<group>"; };
+		CA6755832809AAB2000AB82D /* Destiny ArmoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Destiny ArmoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6755872809AAB2000AB82D /* Destiny_ArmoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_ArmoryUITests.swift; sourceTree = "<group>"; };
+		CA6755892809AAB2000AB82D /* Destiny_ArmoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_ArmoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA83F19F280D89990078ADC8 /* WeaponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponView.swift; sourceTree = "<group>"; };
+		CA8516FE281582EE005A15F5 /* StatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatBar.swift; sourceTree = "<group>"; };
+		CA8753F62836524400D05D39 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		CA8753F8283652DB00D05D39 /* PerkSetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkSetModel.swift; sourceTree = "<group>"; };
+		CA8753FC2836534800D05D39 /* WeaponListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponListView.swift; sourceTree = "<group>"; };
+		CA8753FE2836538C00D05D39 /* WeaponListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponListItem.swift; sourceTree = "<group>"; };
+		CA8754002836545100D05D39 /* IconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
+		CA8754022836557900D05D39 /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
+		CA87540428367AEE00D05D39 /* BungieManifestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BungieManifestModel.swift; sourceTree = "<group>"; };
+		CADD61982844FCE700EEBD94 /* SandboxPerkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxPerkModel.swift; sourceTree = "<group>"; };
+		CAE469CB2837CF9D00F6B091 /* VersionPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionPersistence.swift; sourceTree = "<group>"; };
+		CAE469D32837E51800F6B091 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6755662809AAAD000AB82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6755762809AAB2000AB82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6755802809AAB2000AB82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1D2D782814417500BAE6BA /* WeaponStatsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CA619AB228102F12008D6EC1 /* WeaponPerksView.swift */,
+				CA387D2B280EE0DF00361A78 /* WeaponStatsView.swift */,
+				CA8516FE281582EE005A15F5 /* StatBar.swift */,
+				CA8754002836545100D05D39 /* IconImage.swift */,
+			);
+			path = WeaponStatsGroup;
+			sourceTree = "<group>";
+		};
+		CA261C782812CE2C004EF6BD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA261C792812CE2C004EF6BD /* Futura-Medium.ttf */,
+				CA261C7A2812CE2C004EF6BD /* Exocet Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		CA43914928117A790084EA9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA16C104280C3D9100CD6C47 /* JSONModel.swift */,
+				CA87540428367AEE00D05D39 /* BungieManifestModel.swift */,
+				CA1D2D70281437D200BAE6BA /* PerkCalculationModel.swift */,
+				CA8753F62836524400D05D39 /* ItemModel.swift */,
+				CA619AAC28102654008D6EC1 /* WeaponModel.swift */,
+				CA8753F8283652DB00D05D39 /* PerkSetModel.swift */,
+				CADD61982844FCE700EEBD94 /* SandboxPerkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA43914A28117A8F0084EA9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA8753FC2836534800D05D39 /* WeaponListView.swift */,
+				CA8753FE2836538C00D05D39 /* WeaponListItem.swift */,
+				CA83F19F280D89990078ADC8 /* WeaponView.swift */,
+				CA261C6B2812B8A3004EF6BD /* WeaponViewImage.swift */,
+				CA1D2D782814417500BAE6BA /* WeaponStatsGroup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA6755602809AAAD000AB82D = {
+			isa = PBXGroup;
+			children = (
+				CA67556B2809AAAD000AB82D /* Destiny Armory */,
+				CA67557C2809AAB2000AB82D /* Destiny ArmoryTests */,
+				CA6755862809AAB2000AB82D /* Destiny ArmoryUITests */,
+				CA67556A2809AAAD000AB82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA67556A2809AAAD000AB82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6755692809AAAD000AB82D /* Destiny Armory.app */,
+				CA6755792809AAB2000AB82D /* Destiny ArmoryTests.xctest */,
+				CA6755832809AAB2000AB82D /* Destiny ArmoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA67556B2809AAAD000AB82D /* Destiny Armory */ = {
+			isa = PBXGroup;
+			children = (
+				CA67556C2809AAAD000AB82D /* Destiny_ArmoryApp.swift */,
+				CA43914A28117A8F0084EA9F /* Views */,
+				CA8754022836557900D05D39 /* LoadingAnimation.swift */,
+				CA43914928117A790084EA9F /* Model */,
+				CAE469CA2837CF6900F6B091 /* Data */,
+				CA261C782812CE2C004EF6BD /* Fonts */,
+				CA6755702809AAB2000AB82D /* Assets.xcassets */,
+				CA6755722809AAB2000AB82D /* Preview Content */,
+			);
+			path = "Destiny Armory";
+			sourceTree = "<group>";
+		};
+		CA6755722809AAB2000AB82D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6755732809AAB2000AB82D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA67557C2809AAB2000AB82D /* Destiny ArmoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA67557D2809AAB2000AB82D /* Destiny_ArmoryTests.swift */,
+			);
+			path = "Destiny ArmoryTests";
+			sourceTree = "<group>";
+		};
+		CA6755862809AAB2000AB82D /* Destiny ArmoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6755872809AAB2000AB82D /* Destiny_ArmoryUITests.swift */,
+				CA6755892809AAB2000AB82D /* Destiny_ArmoryUITestsLaunchTests.swift */,
+			);
+			path = "Destiny ArmoryUITests";
+			sourceTree = "<group>";
+		};
+		CAE469CA2837CF6900F6B091 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CAE469CB2837CF9D00F6B091 /* VersionPersistence.swift */,
+				CAE469D32837E51800F6B091 /* CoreDataController.swift */,
+				CA299D4A283D0AD10028EA1E /* CoreDataModel.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6755682809AAAD000AB82D /* Destiny Armory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA67558D2809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny Armory" */;
+			buildPhases = (
+				CA6755652809AAAD000AB82D /* Sources */,
+				CA6755662809AAAD000AB82D /* Frameworks */,
+				CA6755672809AAAD000AB82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Destiny Armory";
+			productName = "Destiny Armory";
+			productReference = CA6755692809AAAD000AB82D /* Destiny Armory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6755782809AAB2000AB82D /* Destiny ArmoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6755902809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny ArmoryTests" */;
+			buildPhases = (
+				CA6755752809AAB2000AB82D /* Sources */,
+				CA6755762809AAB2000AB82D /* Frameworks */,
+				CA6755772809AAB2000AB82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA67557B2809AAB2000AB82D /* PBXTargetDependency */,
+			);
+			name = "Destiny ArmoryTests";
+			productName = "Destiny ArmoryTests";
+			productReference = CA6755792809AAB2000AB82D /* Destiny ArmoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6755822809AAB2000AB82D /* Destiny ArmoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6755932809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny ArmoryUITests" */;
+			buildPhases = (
+				CA67557F2809AAB2000AB82D /* Sources */,
+				CA6755802809AAB2000AB82D /* Frameworks */,
+				CA6755812809AAB2000AB82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6755852809AAB2000AB82D /* PBXTargetDependency */,
+			);
+			name = "Destiny ArmoryUITests";
+			productName = "Destiny ArmoryUITests";
+			productReference = CA6755832809AAB2000AB82D /* Destiny ArmoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6755612809AAAD000AB82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CA6755682809AAAD000AB82D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CA6755782809AAB2000AB82D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA6755682809AAAD000AB82D;
+					};
+					CA6755822809AAB2000AB82D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA6755682809AAAD000AB82D;
+					};
+				};
+			};
+			buildConfigurationList = CA6755642809AAAD000AB82D /* Build configuration list for PBXProject "Destiny Armory" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6755602809AAAD000AB82D;
+			productRefGroup = CA67556A2809AAAD000AB82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6755682809AAAD000AB82D /* Destiny Armory */,
+				CA6755782809AAB2000AB82D /* Destiny ArmoryTests */,
+				CA6755822809AAB2000AB82D /* Destiny ArmoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6755672809AAAD000AB82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA261C7C2812CE2C004EF6BD /* Exocet Light.ttf in Resources */,
+				CA6755742809AAB2000AB82D /* Preview Assets.xcassets in Resources */,
+				CA6755712809AAB2000AB82D /* Assets.xcassets in Resources */,
+				CA261C7B2812CE2C004EF6BD /* Futura-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6755772809AAB2000AB82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6755812809AAB2000AB82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6755652809AAAD000AB82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA299D4C283D0AD10028EA1E /* CoreDataModel.xcdatamodeld in Sources */,
+				CA261C6C2812B8A3004EF6BD /* WeaponViewImage.swift in Sources */,
+				CA87540528367AEE00D05D39 /* BungieManifestModel.swift in Sources */,
+				CADD61992844FCE700EEBD94 /* SandboxPerkModel.swift in Sources */,
+				CA83F1A0280D899A0078ADC8 /* WeaponView.swift in Sources */,
+				CA8753F9283652DB00D05D39 /* PerkSetModel.swift in Sources */,
+				CA1D2D71281437D200BAE6BA /* PerkCalculationModel.swift in Sources */,
+				CA619AB328102F12008D6EC1 /* WeaponPerksView.swift in Sources */,
+				CA8516FF281582EE005A15F5 /* StatBar.swift in Sources */,
+				CAE469CC2837CF9D00F6B091 /* VersionPersistence.swift in Sources */,
+				CA8753F72836524400D05D39 /* ItemModel.swift in Sources */,
+				CA8753FD2836534800D05D39 /* WeaponListView.swift in Sources */,
+				CA8753FF2836538C00D05D39 /* WeaponListItem.swift in Sources */,
+				CA619AAD28102654008D6EC1 /* WeaponModel.swift in Sources */,
+				CA387D2C280EE0DF00361A78 /* WeaponStatsView.swift in Sources */,
+				CA8754012836545100D05D39 /* IconImage.swift in Sources */,
+				CA16C105280C3D9100CD6C47 /* JSONModel.swift in Sources */,
+				CA67556D2809AAAD000AB82D /* Destiny_ArmoryApp.swift in Sources */,
+				CAE469D42837E51800F6B091 /* CoreDataController.swift in Sources */,
+				CA8754032836557900D05D39 /* LoadingAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6755752809AAB2000AB82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA67557E2809AAB2000AB82D /* Destiny_ArmoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA67557F2809AAB2000AB82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6755882809AAB2000AB82D /* Destiny_ArmoryUITests.swift in Sources */,
+				CA67558A2809AAB2000AB82D /* Destiny_ArmoryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA67557B2809AAB2000AB82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6755682809AAAD000AB82D /* Destiny Armory */;
+			targetProxy = CA67557A2809AAB2000AB82D /* PBXContainerItemProxy */;
+		};
+		CA6755852809AAB2000AB82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6755682809AAAD000AB82D /* Destiny Armory */;
+			targetProxy = CA6755842809AAB2000AB82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA67558B2809AAB3000AB82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA67558C2809AAB3000AB82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA67558E2809AAB3000AB82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Destiny Armory/Preview Content\"";
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Destiny-Armory-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-Armory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA67558F2809AAB3000AB82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Destiny Armory/Preview Content\"";
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Destiny-Armory-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-Armory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA6755912809AAB3000AB82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-ArmoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destiny Armory.app/Destiny Armory";
+			};
+			name = Debug;
+		};
+		CA6755922809AAB3000AB82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-ArmoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destiny Armory.app/Destiny Armory";
+			};
+			name = Release;
+		};
+		CA6755942809AAB3000AB82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-ArmoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Destiny Armory";
+			};
+			name = Debug;
+		};
+		CA6755952809AAB3000AB82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59L86D8R53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Destiny-ArmoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Destiny Armory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6755642809AAAD000AB82D /* Build configuration list for PBXProject "Destiny Armory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA67558B2809AAB3000AB82D /* Debug */,
+				CA67558C2809AAB3000AB82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA67558D2809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny Armory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA67558E2809AAB3000AB82D /* Debug */,
+				CA67558F2809AAB3000AB82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6755902809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny ArmoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6755912809AAB3000AB82D /* Debug */,
+				CA6755922809AAB3000AB82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6755932809AAB3000AB82D /* Build configuration list for PBXNativeTarget "Destiny ArmoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6755942809AAB3000AB82D /* Debug */,
+				CA6755952809AAB3000AB82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA299D4A283D0AD10028EA1E /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA299D4B283D0AD10028EA1E /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = CA299D4B283D0AD10028EA1E /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA6755612809AAAD000AB82D /* Project object */;
+}
