@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA03BBF32850E5D700F940CF /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA03BBF22850E5D700F940CF /* HapticManager.swift */; };
 		CA16C105280C3D9100CD6C47 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA16C104280C3D9100CD6C47 /* JSONModel.swift */; };
 		CA1D2D71281437D200BAE6BA /* PerkCalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D2D70281437D200BAE6BA /* PerkCalculationModel.swift */; };
 		CA261C6C2812B8A3004EF6BD /* WeaponViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA261C6B2812B8A3004EF6BD /* WeaponViewImage.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA03BBF22850E5D700F940CF /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		CA16C104280C3D9100CD6C47 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		CA1D2D70281437D200BAE6BA /* PerkCalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerkCalculationModel.swift; sourceTree = "<group>"; };
 		CA261C6B2812B8A3004EF6BD /* WeaponViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponViewImage.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				CA619AAC28102654008D6EC1 /* WeaponModel.swift */,
 				CA8753F8283652DB00D05D39 /* PerkSetModel.swift */,
 				CADD61982844FCE700EEBD94 /* SandboxPerkModel.swift */,
+				CA03BBF22850E5D700F940CF /* HapticManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				CA619AAD28102654008D6EC1 /* WeaponModel.swift in Sources */,
 				CA387D2C280EE0DF00361A78 /* WeaponStatsView.swift in Sources */,
 				CA8754012836545100D05D39 /* IconImage.swift in Sources */,
+				CA03BBF32850E5D700F940CF /* HapticManager.swift in Sources */,
 				CA16C105280C3D9100CD6C47 /* JSONModel.swift in Sources */,
 				CA67556D2809AAAD000AB82D /* Destiny_ArmoryApp.swift in Sources */,
 				CAE469D42837E51800F6B091 /* CoreDataController.swift in Sources */,

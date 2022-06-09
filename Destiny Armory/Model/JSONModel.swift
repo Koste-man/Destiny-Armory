@@ -6,7 +6,9 @@ class JSONModel: ObservableObject {
     
     @Published var weapons: [WeaponModel.Weapon] = []
     
-    var manifestVersion = VersionPersistence.storage.version
+    var savedManifestVersion = VersionPersistence.storage.version
+    
+    var newManifestVersion = ""
     
     var perkSets: [PerkSetModel.PerkSet] = []
     
@@ -44,6 +46,8 @@ class JSONModel: ObservableObject {
         fetchJSONInventoryItems()
         fetchJSONPerkSets()
         fetchSandboxPerks()
+        
+        VersionPersistence.storage.version = newManifestVersion
     }
     
     func updateURLfromManifest(onCompletion: @escaping (Bool) -> Void){
@@ -57,7 +61,7 @@ class JSONModel: ObservableObject {
             do{
                 let JSONManifest = try JSONDecoder().decode(BungieManifestModel.Manifest.self, from: data)
                 
-                VersionPersistence.storage.version = JSONManifest.response.version
+                self?.newManifestVersion = JSONManifest.response.version
                 
                 self?.inventoryURL = JSONManifest.response.jsonWorldComponentContentPaths.en.DestinyInventoryItemDefinition
                 
@@ -86,7 +90,7 @@ class JSONModel: ObservableObject {
                 self.weapons = self.getJSONWeapons(JSONInventoryItems: JSONInventoryItems)
                 self.isLoading[0] = false
             }
-            
+            HapticManager.shared.impact(style: .rigid)
         }catch{
             print("Core Data Inventory Items decode error \(error)")
         }
@@ -110,6 +114,7 @@ class JSONModel: ObservableObject {
                     self?.isLoading[0] = false
                 }
                 
+                HapticManager.shared.notification(type: .success)
             }catch{
                 print("JSON Inventory Items decode error \(error)")
             }

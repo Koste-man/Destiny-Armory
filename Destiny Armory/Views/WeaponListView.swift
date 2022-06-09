@@ -70,7 +70,7 @@ struct WeaponListView: View {
         viewModel.updateURLfromManifest(onCompletion: { (successful) in
             initial ? viewModel.initialFetchFromBungie() : viewModel.updateFetchFromBungie()
             
-            if viewModel.manifestVersion == VersionPersistence.storage.version || viewModel.manifestVersion == nil{
+            if viewModel.savedManifestVersion == VersionPersistence.storage.version || viewModel.savedManifestVersion == nil{
                 lastVersion = true
             }
         })
