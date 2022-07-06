@@ -38,6 +38,10 @@ struct WeaponListView: View {
                             Text("Update")
                         }
                     }
+                    
+                    ToolbarItemGroup(placement: .navigationBarLeading) {
+                        Text("V: " + (viewModel.savedManifestVersion?.prefix(6) ?? viewModel.newManifestVersion.prefix(6)))
+                    }
                 }
             }
             .preferredColorScheme(.dark)
@@ -70,7 +74,7 @@ struct WeaponListView: View {
         viewModel.updateURLfromManifest(onCompletion: { (successful) in
             initial ? viewModel.initialFetchFromBungie() : viewModel.updateFetchFromBungie()
             
-            if viewModel.savedManifestVersion == VersionPersistence.storage.version || viewModel.savedManifestVersion == nil{
+            if viewModel.newManifestVersion == VersionPersistence.storage.version || viewModel.savedManifestVersion == nil{
                 lastVersion = true
             }
         })
